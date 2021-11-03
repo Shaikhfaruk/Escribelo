@@ -1,0 +1,71 @@
+.OurService {
+  height: 100vh;
+}
+.OurService h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    #06d9ca 4.88%,
+    #19b6f0 46.67%,
+    #6e6cff 86.76%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cards-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.cards-main .card .card-bg {
+  width: 239px;
+  height: 238px;
+  background: linear-gradient(
+    90deg,
+    #06d9ca 4.88%,
+    #19b6f0 46.67%,
+    #6e6cff 86.76%
+  );
+  opacity: 0.2;
+  filter: blur(100px);
+  z-index: -66;
+}
+.cards-main .card img {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.card .content {
+  position: relative;
+  bottom: 250px;
+  left: 0;
+  padding: 0.2em;
+}
+.card .content p {
+  text-align: center;
+}
+.ourSer-title {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  background: linear-gradient(
+    90deg,
+    #06d9ca 4.88%,
+    #19b6f0 46.67%,
+    #6e6cff 86.76%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

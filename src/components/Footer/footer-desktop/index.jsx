@@ -40,8 +40,7 @@ const FooterDesktop = () => {
                           family={"Inter"}
                           wt={700}
                           variant={8}
-                          color={"white"}
-                        >
+                          color={"white"}>
                           Product
                         </Text>
                       </GridItem>
@@ -71,8 +70,7 @@ const FooterDesktop = () => {
                           family={"Inter"}
                           wt={700}
                           variant={8}
-                          color={"white"}
-                        >
+                          color={"white"}>
                           Recursos
                         </Text>
                       </GridItem>
@@ -107,8 +105,7 @@ const FooterDesktop = () => {
                           family={"Inter"}
                           wt={700}
                           variant={8}
-                          color={"white"}
-                        >
+                          color={"white"}>
                           Soporte
                         </Text>
                       </GridItem>
@@ -140,8 +137,7 @@ const FooterDesktop = () => {
                           family={"Inter"}
                           wt={700}
                           variant={8}
-                          color={"white"}
-                        >
+                          color={"white"}>
                           Compañía
                         </Text>
                       </GridItem>
@@ -197,18 +193,22 @@ const FooterDesktop = () => {
               borderTop: "1px solid rgba(255, 255, 255, 0.2)",
               paddingTop: "30px",
               marginTop: "30px",
-            }}
-          >
+            }}>
             <Grid aCenter jSpaceBetween>
               <GridItem>
                 <Text color={"#FFF"} variant={8} style={{ cursor: "pointer" }}>
                   Copyright © Copyright 2021
                 </Text>
               </GridItem>
-              <GridItem >
+              <GridItem>
                 <Grid gap={20}>
                   <GridItem>
-                    <SocialIconWrapper>
+                    <SocialIconWrapper
+                      style={{
+                        height: "35px",
+                        width: "35px",
+                        padding: "0.2em",
+                      }}>
                       <SocialIcon>
                         <YoutubeIcon />
                       </SocialIcon>
@@ -216,7 +216,12 @@ const FooterDesktop = () => {
                   </GridItem>
 
                   <GridItem>
-                    <SocialIconWrapper>
+                    <SocialIconWrapper
+                      style={{
+                        height: "35px",
+                        width: "35px",
+                        padding: "0.2em",
+                      }}>
                       <SocialIcon>
                         <InstaIcon />
                       </SocialIcon>
@@ -224,7 +229,12 @@ const FooterDesktop = () => {
                   </GridItem>
 
                   <GridItem>
-                    <SocialIconWrapper>
+                    <SocialIconWrapper
+                      style={{
+                        height: "35px",
+                        width: "35px",
+                        padding: "0.2em",
+                      }}>
                       <SocialIcon>
                         <TwitterIcon />
                       </SocialIcon>
@@ -232,7 +242,12 @@ const FooterDesktop = () => {
                   </GridItem>
 
                   <GridItem>
-                    <SocialIconWrapper>
+                    <SocialIconWrapper
+                      style={{
+                        height: "35px",
+                        width: "35px",
+                        padding: "0.2em",
+                      }}>
                       <SocialIcon>
                         <FacebookIcon />
                       </SocialIcon>
@@ -240,7 +255,12 @@ const FooterDesktop = () => {
                   </GridItem>
 
                   <GridItem>
-                    <SocialIconWrapper>
+                    <SocialIconWrapper
+                      style={{
+                        height: "35px",
+                        width: "35px",
+                        padding: "0.2em",
+                      }}>
                       <SocialIcon>
                         <RedditIcon />
                       </SocialIcon>
@@ -248,7 +268,12 @@ const FooterDesktop = () => {
                   </GridItem>
 
                   <GridItem>
-                    <SocialIconWrapper>
+                    <SocialIconWrapper
+                      style={{
+                        height: "35px",
+                        width: "35px",
+                        padding: "0.2em",
+                      }}>
                       <SocialIcon>
                         <MailIcon />
                       </SocialIcon>
@@ -262,8 +287,7 @@ const FooterDesktop = () => {
                     <Text
                       color={"#FFF"}
                       variant={8}
-                      style={{ cursor: "pointer" }}
-                    >
+                      style={{ cursor: "pointer" }}>
                       Terms
                     </Text>
                   </GridItem>
@@ -271,8 +295,7 @@ const FooterDesktop = () => {
                     <Text
                       color={"#FFF"}
                       variant={8}
-                      style={{ cursor: "pointer" }}
-                    >
+                      style={{ cursor: "pointer" }}>
                       Privacy
                     </Text>
                   </GridItem>
@@ -324,7 +347,7 @@ export const FooterLink = styled(Text)`
     font-size: 0.8rem;
   }
   &:hover {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
   }
 `;
 
@@ -364,9 +387,9 @@ const CustomInputContainer = styled.div`
       right: 0;
     }
     &:hover {
-      svg{
+      svg {
         position: relative;
-        right: -7px ; 
+        right: -7px;
         transition: right 500ms linear;
       }
     }
@@ -387,6 +410,7 @@ const SocialIconWrapper = styled.div`
 const SocialIcon = styled.div`
   width: 15px;
   height: 15px;
+  margin: 2px 0px 5px -1px;
   &:hover {
     svg {
       path {

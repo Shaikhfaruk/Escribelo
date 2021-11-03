@@ -11,6 +11,7 @@ import MiddleSvg from "../../../../assets/Frame9.png";
 import GooglePng from "../../../../assets/google.png";
 import GradiantButtonEmpty from "../../../../styled-component/buttons/custom-button/gradiantButtonEmpty";
 import GradiantButtonFill from "../../../../styled-component/buttons/custom-button/graidantButtonFill";
+import OurService from "../../../../components/ourService/OurService";
 const HomeSectionOne = () => {
   return (
     <>
@@ -139,7 +140,8 @@ const HomeSectionOne = () => {
 
       <Container>
         <Grid>
-          <MiddleImage src={MiddleSvg} />
+          {/* <MiddleImage src={MiddleSvg} /> */}
+          <OurService />
         </Grid>
       </Container>
 

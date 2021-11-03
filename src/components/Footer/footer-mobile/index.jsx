@@ -24,15 +24,15 @@ const FooterMobile = () => {
                 <GridItem
                   onClick={() => {
                     window.location.href = "/";
-                  }}
-                >
+                  }}>
                   <LogoImage src={Logo} alt={""} />
                 </GridItem>
 
                 <GridItem>
                   <Grid gap={10}>
                     <GridItem>
-                      <SocialIconWrapper>
+                      <SocialIconWrapper
+                        style={{ height: "40px", width: "40px" }}>
                         <SocialIcon>
                           <YoutubeIcon />
                         </SocialIcon>
@@ -95,8 +95,7 @@ const FooterMobile = () => {
                               family={"Inter"}
                               wt={700}
                               variant={7}
-                              color={"white"}
-                            >
+                              color={"white"}>
                               Producto
                             </FooterHeading>
                           </GridItem>
@@ -122,8 +121,7 @@ const FooterMobile = () => {
                               family={"Inter"}
                               wt={700}
                               variant={7}
-                              color={"white"}
-                            >
+                              color={"white"}>
                               Recursos
                             </FooterHeading>
                           </GridItem>
@@ -153,8 +151,7 @@ const FooterMobile = () => {
                               family={"Inter"}
                               wt={700}
                               variant={7}
-                              color={"white"}
-                            >
+                              color={"white"}>
                               Soporte
                             </FooterHeading>
                           </GridItem>
@@ -186,8 +183,7 @@ const FooterMobile = () => {
                               family={"Inter"}
                               wt={700}
                               variant={7}
-                              color={"white"}
-                            >
+                              color={"white"}>
                               Compañía
                             </FooterHeading>
                           </GridItem>
@@ -242,16 +238,13 @@ const FooterMobile = () => {
               </GridItem>
             </Box>
 
-           
-
             <CopyRightBox mt={"40px"}>
               <Grid jSpaceAround>
                 <GridItem>
                   <Text
                     color={"#FFF"}
                     variant={8}
-                    style={{ cursor: "pointer" }}
-                  >
+                    style={{ cursor: "pointer" }}>
                     Copyright © Copyright 2021
                   </Text>
                 </GridItem>
@@ -262,8 +255,7 @@ const FooterMobile = () => {
                       <Text
                         color={"#FFF"}
                         variant={8}
-                        style={{ cursor: "pointer" }}
-                      >
+                        style={{ cursor: "pointer" }}>
                         Terms
                       </Text>
                     </GridItem>
@@ -271,8 +263,7 @@ const FooterMobile = () => {
                       <Text
                         color={"#FFF"}
                         variant={8}
-                        style={{ cursor: "pointer" }}
-                      >
+                        style={{ cursor: "pointer" }}>
                         Privacy
                       </Text>
                     </GridItem>
@@ -318,8 +309,6 @@ export const FooterHeading = styled(Text)`
     font-size: 0.8rem;
   }
 `;
-
-
 
 const LogoImage = styled.img`
   width: 60px;
@@ -371,7 +360,6 @@ const CustomInputContainer = styled.div`
   @media screen and (max-width: 400px) {
     input {
       width: 150px;
-     
     }
   }
 `;
