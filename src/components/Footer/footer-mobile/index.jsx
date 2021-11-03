@@ -31,8 +31,7 @@ const FooterMobile = () => {
                 <GridItem>
                   <Grid gap={10}>
                     <GridItem>
-                      <SocialIconWrapper
-                        style={{ height: "40px", width: "40px" }}>
+                      <SocialIconWrapper>
                         <SocialIcon>
                           <YoutubeIcon />
                         </SocialIcon>
@@ -365,8 +364,8 @@ const CustomInputContainer = styled.div`
 `;
 
 const SocialIconWrapper = styled.div`
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border: 1px solid white;
   border-radius: 50%;
   display: flex;
@@ -378,6 +377,7 @@ const SocialIconWrapper = styled.div`
 const SocialIcon = styled.div`
   width: 15px;
   height: 15px;
+  margin: 2px 0px 5px -1px;
   &:hover {
     svg {
       path {
